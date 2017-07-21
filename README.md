@@ -91,7 +91,7 @@ mutation{
 }
 </pre>
 
-or using Variable parameters:
+Or using Query with Variable parameters:<br />
 Query: 
 <pre lang="graphql">
 mutation addAUser($user: UserInput){
