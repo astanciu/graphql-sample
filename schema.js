@@ -1,4 +1,3 @@
-// Starting Schema
 const makeExecutableSchema = require('graphql-tools').makeExecutableSchema;
 
 const typeDefs = `

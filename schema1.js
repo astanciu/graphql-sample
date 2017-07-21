@@ -1,11 +1,3 @@
-// Plain query with resolvers
-// query {
-//   getUsers {
-//     name
-//     email
-//     age
-//   }
-// }
 const makeExecutableSchema = require('graphql-tools').makeExecutableSchema;
 let users = [
   {name: 'alex', email: 'alex@auth0.com', age: '99'},

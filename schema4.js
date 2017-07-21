@@ -1,13 +1,3 @@
-// With Mutations
-// mutation{
-//   addUser(newUser: {name: "steve", email: "steve@auth0.com"}) {
-//     name
-//     email
-//     age
-//   }
-// }
-
-
 const makeExecutableSchema = require('graphql-tools').makeExecutableSchema;
 let users = [
   { name: 'justin', email: 'justin@auth0.com', age: '99' },

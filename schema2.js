@@ -1,16 +1,3 @@
-// With nested objects
-// query {
-//   getUsers {
-//     name
-//     email
-//     age
-//     posts {
-//       id
-//       title
-//     }
-//   }
-// }
-
 const makeExecutableSchema = require('graphql-tools').makeExecutableSchema;
 let users = [
   {name: 'justin', email: 'justin@auth0.com', age: '99'},

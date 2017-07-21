@@ -1,12 +1,3 @@
-// Query with parameters
-// query {
-//   getUser(name: "alex") {
-//     name
-//     email
-//     age
-//   }
-// }
-
 const makeExecutableSchema = require('graphql-tools').makeExecutableSchema;
 let users = [
   { name: 'justin', email: 'justin@auth0.com', age: '99' },
