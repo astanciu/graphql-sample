@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const graphqlExpress = require('apollo-server-express').graphqlExpress
 const graphiqlExpress = require('apollo-server-express').graphiqlExpress
 
-const schema = require('./schema4.js')
+const schema = require('./schema.js')
 
 const app = express();
 
